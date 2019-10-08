@@ -22,23 +22,13 @@
 
     </FrameLayout>
 
-    <ProgressBar
-        android:id="@+id/voice_progress"
-        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="40dp"
-        android:layout_below="@+id/player_layout"
-        android:layout_alignParentEnd="true"
-        android:layout_margin="16dp"
-        android:layout_marginTop="15dp"
-        android:layout_marginBottom="16dp" />
-
     <ImageView
         android:id="@+id/brightness"
         android:layout_width="100dp"
         android:layout_height="60dp"
+        android:layout_marginTop="16dp"
         android:background="@color/colorPrimary"
         android:layout_centerHorizontal="true"
-        android:layout_below="@+id/voice_progress"/>
+        android:layout_below="@+id/player_layout"/>
 
 </RelativeLayout>
